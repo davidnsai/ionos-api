@@ -1,0 +1,42 @@
+# Ignore vendor directory
+/vendor/
+
+# Ignore Composer lock file (optional - remove if you want to commit it)
+# composer.lock
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage reports
+/coverage/
+clover.xml
+coverage.xml
+
+# Ignore PHPUnit cache
+.phpunit.cache/
+.phpunit.result.cache
+
+# Ignore logs
+*.log
+/logs/
+
+# Ignore temporary files
+/tmp/
+/temp/
+
+# Ignore build artifacts
+/build/
+/dist/
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
